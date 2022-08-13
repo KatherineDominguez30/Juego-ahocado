@@ -8,14 +8,36 @@
     <title>Juego Ahorcado</title>
     <link rel="icon" type="icon/png" href="imagenes/icon.ico">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="stylo.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecera">
         <img class="LogoImg" src="imagenes/logo.png" alt="Logo">
     </header>
     <main>
+        <!-- <img class="cascada" src="/imagenes/cascada.png" alt="cascada"> -->
+        <div class="hombre-ahorcado">
+            <img id="hombre" src="imagenes/estado-1.png" alt="hombre-ahorcado">
+        </div>
 
+        <div class="adivinador">
+            <span class="letras adivinada">A</span>
+            <span class="letras adivinada">L</span>
+            <span class="letras adivinada"></span>
+            <span class="letras adivinada"></span>
+            <span class="letras adivinada">S</span>
+            <span class="letras adivinada">S</span>
+        </div>
+        <div class="errado">
+            <span class="letras erradas">B</span>
+            <span class="letras erradas">J</span>
+            <span class="letras erradas">K</span>
+            <span class="letras erradas">C</span>
+        </div>
+        <form class="botones" action="javascript">
+            <input type="button" class="btn-azul" value="Nuevo Juego">
+            <input type="button" class="bton-desis" value="Desistir">
+        </form>
     
     </main>
     <script src="./app.js"></script>

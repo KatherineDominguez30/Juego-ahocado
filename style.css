@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background: #b5bec2;
+}
+ .LogoImg{
+    width: 30px;
+    margin-top: 2rem; 
+    margin-left: 3rem;
+} 
+
+#hombre{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+
+.hombre-ahorcado {
+    width: 100vw;
+    text-align: center;
+    margin-top: 2rem; 
+    margin-bottom: 1rem;
+}
+
+.adivinador{
+    text-align: center;
+    color: #002462;
+    font-size: 1.8rem;
+}
+
+.letras {
+    text-align: center;
+    display: inline-block; 
+   
+}
+
+.adivinada{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-bottom: solid 2px #002462;
+    margin-left: 0.4rem;
+    line-height: 4.5rem;
+    vertical-align: middle;
+    /* background: #b8df63;  */
+}
+
+.errado{
+    text-align: center;
+    margin-top: 2rem; 
+    color: #000000;   
+}
+
+.erradas{
+    font-size: 1.5rem;
+    margin-left: 1rem; 
+}
+
+[type="button"] {
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #043871; 
+    cursor: pointer;
+    color: rgb(239, 239, 239);
+    font-size: 1.5rem;
+
+}
+
+.botones{
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+
+.btn-azul{
+    background: #83a5e0;
+}
+
+.bton-desis {
+    background: #bb7cd5;
+}
+
+ .pie-pagina {
+    text-align: center;
+    font-size: 20px;
+    height: 5%;
+    margin-top: 2rem;
+} 
