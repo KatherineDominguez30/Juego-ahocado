@@ -1,83 +1,82 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-html{
+
+html {
     font-size: 16px;
 }
-body{
+
+body {
     background: #b5bec2;
 }
- .LogoImg{
-    width: 30px;
-    margin-top: 2rem; 
+
+ .LogoImg {
     margin-left: 3rem;
+    margin-top: 2rem;
+    width: 30px;
 } 
 
-#hombre{
-    max-width: 100%;
-    max-height: 100%;
+#hombre {
     display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .hombre-ahorcado {
-    width: 100vw;
-    text-align: center;
-    margin-top: 2rem; 
     margin-bottom: 1rem;
+    margin-top: 2rem; 
+    text-align: center;
+    width: 100vw;
 }
 
-.adivinador{
-    text-align: center;
+.adivinador {
     color: #002462;
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .letras {
-    text-align: center;
     display: inline-block; 
-   
-}
-
-.adivinada{
-    width: 4.5rem;
-    height: 4.5rem;
-    border-bottom: solid 2px #002462;
-    margin-left: 0.4rem;
-    line-height: 4.5rem;
-    vertical-align: middle;
-    /* background: #b8df63;  */
-}
-
-.errado{
     text-align: center;
-    margin-top: 2rem; 
-    color: #000000;   
 }
 
-.erradas{
+.adivinada {
+    border-bottom: solid 2px #002462;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+    width: 4.5rem;
+}
+
+.errado {
+    color: #000000; 
+    margin-top: 2rem;
+    text-align: center;    
+}
+
+.erradas {
     font-size: 1.5rem;
     margin-left: 1rem; 
 }
 
 [type="button"] {
-    width: 15rem;
-    padding: 1rem;
+    border: solid 1px #043871;
     border-radius: 1rem;
-    border: solid 1px #043871; 
-    cursor: pointer;
     color: rgb(239, 239, 239);
+    cursor: pointer;
     font-size: 1.5rem;
-
+    padding: 1rem;
+    width: 15rem;
 }
 
-.botones{
-    text-align: center;
+.botones {
     margin-top: 2rem;
-   
+    text-align: center;  
 }
 
-.btn-azul{
+.btn-azul {
     background: #83a5e0;
 }
 
@@ -85,7 +84,7 @@ body{
     background: #bb7cd5;
 }
 
- .pie-pagina {
+.pie-pagina {
     text-align: center;
     font-size: 20px;
     height: 5%;
