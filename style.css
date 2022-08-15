@@ -90,3 +90,36 @@ body {
   height: 5%;
   margin-top: 2rem;
 }
+@media screen and (max-width: 200px) {
+
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    background: #dcd3a3;
+  }
+
+  .LogoImg {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 25px;
+  }
+
+  .hombre-ahorcado {
+    width: 70vw;
+    margin-left: 10%;
+  }
+
+  [type="button"] {
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+  }
+
+  .pie-pagina {
+    font-size: 15px;
+    margin-top: 3rem;
+  }
+
+}
