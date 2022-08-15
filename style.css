@@ -30,7 +30,7 @@ body {
     width: 100vw;
 }
 
-.adivinador {
+.adivinador-palabras {
     color: #002462;
     font-size: 1.8rem;
     text-align: center;
@@ -50,7 +50,7 @@ body {
     width: 4.5rem;
 }
 
-.errado {
+.errado-en-palabras {
     color: #000000; 
     margin-top: 2rem;
     text-align: center;    
